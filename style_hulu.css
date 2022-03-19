@@ -1,0 +1,398 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.prima_parte{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("bg_login.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.login{
+    font-family: 'Graphik',Helvetica,Arial,sans-serif;
+    align-self: flex-end;
+    justify-content: flex-start;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    margin-right: 25px;
+    background: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    display: block;
+}
+.login:hover{
+    color: rgb(216, 215, 215);
+    cursor: pointer;
+}
+.bundle_green{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 230px;
+    margin-top: 100px;
+    padding: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    color: #1ce781ea;
+}
+.p_alb1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 8px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+}
+.button_bundle{
+    display: inline;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.button_bundle:hover{
+    background-color: rgb(216, 215, 215);
+    cursor: pointer;
+}
+.other_links{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: normal;
+    line-height: 16px;
+    color: #868D9B;
+    cursor: pointer;
+}
+.sign_up{
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.3px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 5px;
+}
+.partea_doi{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.p_alb2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #fff;
+}
+.div_img{
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 22%;
+    height: 27%;
+    cursor: pointer;
+}
+.mesaj_premium{
+    font-size: 11px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.829);
+    padding-right: 50px;
+    align-self: flex-end;
+}
+.sub_head{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 13px;
+    color: #1ce781ea;
+}
+.headd{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 44px;
+    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+.partea_trei{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+    padding-top: 60px;    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.price{
+    font-weight: 400;
+    margin-top: 15px;
+    font-size: 25px;
+    line-height: 34px;
+    color: #fff;
+}
+.restrictions{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #a1a1a1;
+}
+.channels{
+    font-size: 16px;
+    color: #dfdfdf;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.arrow{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    animation: move-up-and-down 1s infinite alternate;
+}
+@keyframes move-up-and-down{
+    0% { top: 0; }
+    50% { top: 5px; }
+    100% { top: 10px; }
+}
+.news{
+    width: 100%;
+    height: 50%;
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    cursor: default;
+}
+.ultima_parte{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;   
+    font-family: Arial, Helvetica, sans-serif;
+}
+.head_gri{
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 44px;
+    color: rgb(46, 47, 58);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.p_gri1{
+    font-weight: 400;
+    font-size: 25px;
+    color: rgb(29, 29, 29);
+    margin-bottom: 0;
+}
+.p_gri2{
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(29, 29, 29);
+    margin-top: 0;
+}
+.logouri{
+    width: 170px;
+    height: 65px;
+    margin-left: 0
+}
+table{
+    align-self: center;
+    width: 75%;
+    border-collapse: collapse;
+}
+td{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1.2px solid #f0efefda;
+    border-bottom: 1.2px solid #f0efefda;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(68, 68, 68);
+}
+td:first-of-type{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 16px;
+    text-align: left;
+    color: #2e2e2e;
+}
+th{
+    position: sticky;
+    top: 0;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #fff;
+    height: 200px;
+    border-top: 1.2px solid #f0efefda;
+    border-bottom: 1.2px solid #f0efefda;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+.column1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;    
+    justify-content: center;
+    margin: 0;
+    background-color: #fff;
+    height: 200px;
+    border-top: 1.2px solid #f0efefda;
+    border-bottom: 1.2px solid #f0efefda;
+    padding-bottom: 20px;
+}
+.column2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    background-color: #fff;
+    height: 200px;
+    border-top: 1.2px solid #f0efefda;
+    border-bottom: 1.2px solid #f0efefda;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+}
+.save{    
+    color: rgb(31, 31, 31);
+    font-family: "Graphik Web",sans-serif;
+    font-size: 31px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    margin: 0;
+}
+.includes{
+    color: #272727;
+    font-family: "Graphik Web",sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.25px;
+}
+.most_popular{
+    background-color: #03c262ea;
+    color: #272727e5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.select_button{
+    background-color: black;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+.select_button:hover{
+    background-color: #272727;
+}
+.trial{
+    font-family: "Graphik Web",sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #838383;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.hulu_ads{
+    color: #272727;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.tick{
+    width: 20px;
+    height: 20px;
+}
+.ms_final{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #757575;
+}
+footer{
+    width: 100%;
+    height: 100%;
+}
+.footer_img{
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+/******************/
+
+@media screen and (max-width: 750px){
+    table{
+        visibility: collapse;
+    }
+}
